@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+<script>
+
+$(document).ready(function(){ // appelle les functions lorsque le document sera pret. Une fois chargé le document peut enclenché ses fonctions imbriquées
+	$("button").click(function(){
+		$("#p1").css("color","red").slideUp(2000).slideDown(2000);
+		});
+	});
+
+
+</script>
+
+</head>
+<body>
+
+
+
+
+<p id="p1" style="color:red"> jQuery </p>
+<button > Click </button><br>
+
+
+</body>
+</html>
